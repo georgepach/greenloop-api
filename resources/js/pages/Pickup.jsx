@@ -165,7 +165,7 @@ export default function PickupPage() {
                 }
             } else {
                 alert('Pickup scheduled successfully!');
-                navigate('/');
+                navigate('/home');
             }
         } catch (err) {
             console.error("Scheduling error:", err);

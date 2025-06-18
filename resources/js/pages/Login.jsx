@@ -66,7 +66,7 @@ const Login = () => {
                                     <p>Forgot password?<span className="link"> Click Here!</span></p>
                                 </div> */}
                                 <div className="Sign-up">
-                                    <p>Don't have an account?<span className="sign-up" onClick={() => navigate('/register')} style={{cursor: 'pointer'}}> Sign Up</span></p>
+                                    <p>Don't have an account?<span className="sign-up" onClick={() => navigate('/')} style={{cursor: 'pointer'}}> Sign Up</span></p>
                                 </div>
                             </div>
                         </form>
